@@ -1,0 +1,20 @@
+<head>
+  <title>serialportcomm</title>
+</head>
+
+<body>
+  <h1>Welcome to Meteor!</h1>
+
+  {{> hello}}
+</body>
+
+<template name="hello">
+  <button id="onLed">ON LED</button>
+  <button id="offLed">OFF LED</button>
+  <p>LED is {{state}}</p>
+
+  <div class="surface" style="width:200px; height:200px; border:1px solid black;"></div>
+  <div class="demo">{{coordinates}}</div>
+
+  
+</template>
